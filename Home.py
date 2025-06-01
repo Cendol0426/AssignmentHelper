@@ -6,6 +6,7 @@ st.set_page_config(
 )
 
 st.write("# Welcome to Sean Project Helper! 👋")
+st.subheader(" Dont worry, more tools will come when demanded")
 
 st.sidebar.success("Select a tool above.")
 
