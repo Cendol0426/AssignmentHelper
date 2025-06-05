@@ -61,7 +61,7 @@ if equation and x_lower_boundary and x_upper_boundary:
         buf.seek(0)
 
         st.download_button(
-            label="Download Graph as PNG",
+            label="📥 Download Graph as PNG",
             data=buf,
             file_name=f"{graph_title}.png",
             mime="image/png"
